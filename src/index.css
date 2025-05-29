@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-purple: #f3edf7;
+  --bg-purple-200: #e8def8;
+
+  --border: 1px solid var(--border-color);
+  --border-color: #c8c8c8;
+  --border-radius: 7px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #fdfdfd;
+}
