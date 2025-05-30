@@ -4,7 +4,7 @@
 }
 .services_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .services h2 {
@@ -21,12 +21,23 @@
 }
 
 .services-img {
+  position: relative;
   text-align: center;
 
   @media (max-width: 940px) {
     grid-column: 1 / -1;
     margin-top: 50px;
   }
+}
+.services-img::after {
+  content: '';
+  position: absolute;
+  inline-size: 110px;
+  block-size: 120%;
+  background-color: #2c4755;
+  top: -10%;
+  right: -5%;
+  z-index: -1;
 }
 
 .services-img img {
