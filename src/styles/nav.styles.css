@@ -1,8 +1,6 @@
 .main-nav {
   --item-padding-block: 20px;
-}
 
-.main-nav {
   position: sticky;
   top: 0;
   border-bottom: var(--border);
@@ -20,7 +18,7 @@
 }
 
 .main-nav img {
-  inline-size: 100px;
+  max-inline-size: 100px;
 }
 
 .main-nav_items {

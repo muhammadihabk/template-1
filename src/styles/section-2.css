@@ -1,0 +1,10 @@
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.section-2 div {
+  padding: 30px;
+  text-align: center;
+  min-width: 0;
+}
