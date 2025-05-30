@@ -5,10 +5,15 @@
 :root {
   --bg-purple: #f3edf7;
   --bg-purple-200: #e8def8;
+  --bg-100: #f7f7f7;
 
   --border: 1px solid var(--border-color);
   --border-color: #c8c8c8;
   --border-radius: 7px;
+
+  --section-padding-block: 40px;
+
+  --padding-inline: 30px;
 }
 
 body {
@@ -17,13 +22,18 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   background-color: #fdfdfd;
-
-  word-break: break-word;
 }
 
+h1 {
+  font-weight: 900;
+}
 h1,
 h2 {
   margin: 0;
+}
+h2 {
+  padding-block: 0;
+  font-size: 3rem;
 }
 
 .page-wrapper {

@@ -1,6 +1,11 @@
+.section-2_bg {
+  background-color: var(--bg-100);
+}
+
 .section-2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-block: var(--section-padding-block);
 }
 
 .section-2 div {
