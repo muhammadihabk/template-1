@@ -5,6 +5,7 @@
   top: 0;
   border-bottom: var(--border);
   background-color: #ffffff;
+  z-index: 100;
 }
 
 .main-nav_bar {
@@ -12,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   margin-block: 0;
-  padding-inline: 20px;
+  padding-inline: var(--padding-inline);
   padding-block: 15px;
   list-style-type: none;
 }

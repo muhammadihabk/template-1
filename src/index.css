@@ -11,7 +11,7 @@
   --border-color: #c8c8c8;
   --border-radius: 14px;
 
-  --section-padding-block: 40px;
+  --section-padding-block: 80px;
 
   --padding-inline: 30px;
 }
@@ -28,12 +28,17 @@ h1 {
   font-weight: 900;
 }
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
 }
 h2 {
   padding-block: 0;
   font-size: 3rem;
+  font-weight: 800;
+}
+h3 {
+  font-size: 2rem;
 }
 
 .page-wrapper {
