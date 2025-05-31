@@ -1,0 +1,17 @@
+.contact-us-section {
+  text-align: center;
+  margin-block-start: 250px;
+  padding-block: var(--section-padding-block);
+}
+.contact-us-section h2 {
+  color: #bdbdbd;
+}
+
+.contact-us-section p {
+  margin-block-start: 40px;
+}
+
+span.email {
+  color: #13419d;
+  font-weight: 500;
+}
