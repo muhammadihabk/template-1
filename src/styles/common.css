@@ -1,0 +1,11 @@
+.page-wrapper {
+  max-inline-size: 1300px;
+  margin-inline: auto;
+}
+
+section {
+  margin-block-start: var(--section-padding-block);
+}
+.main-section {
+  margin-block-start: 0;
+}

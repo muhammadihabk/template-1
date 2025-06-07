@@ -40,8 +40,3 @@ h2 {
 h3 {
   font-size: 2rem;
 }
-
-.page-wrapper {
-  max-inline-size: 1300px;
-  margin-inline: auto;
-}
